@@ -120,7 +120,7 @@ anagrams('laser', ['lazing', 'lazy',  'lacer']) => []
 Create your scrapy projet :
 
 ```shell
-scrapy startproject worshop-scraping webscraper.io/test-sites/e-commerce/static
+scrapy startproject workshop_scraping
 ```
 
 ## Setup your spider
