@@ -120,27 +120,21 @@ anagrams('laser', ['lazing', 'lazy',  'lacer']) => []
 Create your scrapy projet :
 
 ```shell
-scrapy startproject worshop-scraping
+scrapy startproject worshop-scraping webscraper.io/test-sites/e-commerce/static
 ```
 
 ## Setup your spider
 
-First we need to create our scrapy folder :
-
-```shell
-scrapy startproject folder_name
-```
-
 After, we have to generate the first spider:
 
 ```shell
-scrapy genspider spider_name
+scrapy genspider ecommerce
 ```
 
 To launch your spider :
 
 ```shell
-scrapy crawl spider_name
+scrapy crawl ecommerce
 ```
 ## Exercise 1
 
