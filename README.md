@@ -128,7 +128,7 @@ scrapy startproject worshop-scraping webscraper.io/test-sites/e-commerce/static
 After, we have to generate the first spider:
 
 ```shell
-scrapy genspider ecommerce
+scrapy genspider ecommerce webscraper.io/test-sites/e-commerce/static
 ```
 
 To launch your spider :
