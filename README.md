@@ -43,8 +43,6 @@ pip install Scrapy
 
 Fork this repository, and push code throughout the activity
 
-Create a folder for each part and a subfolder for the different steps.
-
 
 # First Part : Python Basis
 
