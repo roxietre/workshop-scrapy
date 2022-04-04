@@ -73,24 +73,9 @@ Three
 14
 ThreeFive
 16
-```
 
+```
 ## Exercise 2
-
-Determine whether a positive integer number is colorful or not.
-
-263 is a colorful number because [2, 6, 3, 2x6, 6x3, 2x6x3] are all different; whereas 236 is not colorful, because [2, 3, 6, 2x3, 3x6, 2x3x6] have 6 twice.
-
-So take all consecutive subsets of digits, take their product and ensure all the products are different.
-
-Examples:
-
-```shell
-263  -->  true
-236  -->  false
-2532 -->  false
-```
-## Exercise 3
 
 Write a function calculate that takes a list of strings a returns the sum of the list items that represents an integer (skipping the other items).
 
@@ -103,7 +88,7 @@ calculate(['nothing', 3, '8', 2, '1']) ➞ 9
 calculate('54') ➞ False
 ```
 
-## Exercise 4
+## Exercise 3
 
 Write a function that will find all the anagrams of a word from a list. You will be given two inputs a word and an array with words. You should return an array of all the anagrams or an empty array if there are none.
 
