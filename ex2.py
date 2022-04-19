@@ -1,6 +1,11 @@
 
+import string
+
+
 def calculate(a):
     sum = 0
+    if type(a) != list:
+        return False
     for i in a:
         try:
             if i.isdigit():
@@ -11,5 +16,5 @@ def calculate(a):
             pass
     return sum
 
-print(calculate(['4', '3', '-2']))
+print(calculate('4'))
 print(calculate(['nothing', 3, '8', 2, '1']))
