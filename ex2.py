@@ -15,6 +15,3 @@ def calculate(a):
         except:
             pass
     return sum
-
-print(calculate('4'))
-print(calculate(['nothing', 3, '8', 2, '1']))

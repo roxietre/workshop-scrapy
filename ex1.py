@@ -8,5 +8,3 @@ def print_numbers():
             print("Five")
         else:
             print(i)
-
-print_numbers()
